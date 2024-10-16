@@ -1,0 +1,16 @@
+meta {
+  name: StudentById
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:3002/identificacion/534/ciudad/Bogota?nombre=Cristian&edad=98
+  body: none
+  auth: none
+}
+
+params:query {
+  nombre: Cristian
+  edad: 98
+}
